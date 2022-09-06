@@ -18,8 +18,9 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          chat and connect with new people{' '}
-          <code className={styles.code}>sign in/sign up</code>
+          chat and connect with people{' '}
+          <code className={styles.code}>
+          sign in/sign up</code>
         </p>
 
         <div className={styles.grid}>
@@ -57,8 +58,8 @@ const Home: NextPage = () => {
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+            rel="noopener noreferrer" 
+          >
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
